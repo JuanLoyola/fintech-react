@@ -6,8 +6,9 @@ function Navbar() {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 	
 	return (
-		<div className='shadow text-black h-14 flex justify-center items-center'>
-			<div className='w-full lg:max-w-5xl flex justify-between items-center px-12 md:px-0 text-sm'>
+		<div className='fixed w-full shadow text-black h-14 flex justify-center items-center'>
+			<div className='w-full h-20 absolute bg-[#f1f1f1] blur-sm shadow-xl z-10'></div>
+			<div className='w-full relative lg:max-w-5xl flex justify-between items-center px-12 md:px-0 text-sm z-20 bg-none'>
 				{/* desktop */}
 				<ul className='hidden w-[18rem] md:flex justify-between items-center'>
 					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>Home</li>
