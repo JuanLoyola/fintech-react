@@ -25,7 +25,7 @@
 
 /* animation bg hover */
 .hover-button {
-  background: linear-gradient(to right, rgb(78, 78, 215) 50%, #ffffff 50%);
+  background: linear-gradient(to right, #1565d8 50%, #ffffff 50%);
   background-size: 201% 100%;
   transition: background-position 0.5s;
 }

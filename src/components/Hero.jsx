@@ -10,7 +10,7 @@ export default class Hero extends Component {
                         <h1 className='text-white text-lg md:text-xl lg:text-6xl font-semibold mb-3'>Information for financial literacy</h1>
                         <p className='text-white text-base font-light md:text-lg lg:text-2xl'>We have a large section where we give tips on how to manage your finances.</p>
                         <div className='w-full flex justify-center md:justify-start items-center gap-x-5'>
-                            <a className='text-white border border-white px-12 py-2 rounded-full hover-button hover:text-black transition-all' href="" target="_blank" rel="noopener noreferrer">
+                            <a className='text-white font-semibold border border-white px-12 py-2 rounded-full hover-button hover:text-black transition-all' href="" target="_blank" rel="noopener noreferrer">
                                 learn more
                             </a>
                         </div>

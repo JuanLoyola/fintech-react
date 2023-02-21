@@ -6,19 +6,18 @@ function Navbar() {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 	
 	return (
-		<div className='fixed w-full shadow text-black h-14 flex justify-center items-center'>
-			<div className='w-full h-20 absolute bg-[#f1f1f1] shadow-xl z-10'></div>
+		<div className='fixed w-full  text-white h-14 flex justify-center items-center'>
+			<div className='w-full h-20 absolute bg-[#1565d8] z-10'></div>
 			<div className='w-full relative lg:max-w-5xl flex justify-between items-center px-12 md:px-0 text-sm z-20 bg-none'>
 				{/* desktop */}
 				<ul className='hidden w-[18rem] md:flex justify-between items-center'>
-					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>Home</li>
-					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>About</li>
-					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>Services</li>
-					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>Crypto</li>
+					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>about us</li>
+					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>products</li>
+					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>benefits</li>
+					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>pricing</li>
 				</ul>
 				<ul className='hidden w-[12rem] md:flex justify-between items-center'>
-					<li className='font-medium text-sm hover:text-gray-500 cursor-pointer transition-all'>Log In</li>
-					<li className='font-medium text-sm bg-indigo-500 hover:bg-indigo-600 text-white hover:text-gray-300 px-7 py-2 rounded-md cursor-pointer transition-all'>Sign Up</li>
+					<li className='font-medium text-sm border border-white hover:border-gray-300 hover:bg-[#1259bc] text-white hover:text-gray-300 px-7 py-2 rounded-md cursor-pointer transition-all'>contact</li>
 				</ul>
 
 				{/* mobile */}
