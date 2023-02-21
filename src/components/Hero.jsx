@@ -16,8 +16,8 @@ export default class Hero extends Component {
                         </div>
                     </span>
 
-                    <span className='w-4/5 md:w-3/6 h-[20rem] flex justify-center items-center'>
-                        <img src="/src/assets/images/hero.svg" alt="hero image" />
+                    <span className='w-4/5 md:w-3/6 h-[20rem] lg:h-[30rem] flex justify-center items-center'>
+                        <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_sM28Fo.json"  background="transparent"  speed="1"   autoplay></lottie-player>
                     </span>
                 </div>
 
