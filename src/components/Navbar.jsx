@@ -29,7 +29,7 @@ function Navbar() {
 					</li>
 				</ul>
 				{/* options panel */}
-				<div className={isNavOpen ? 'md:hidden bg-[#f1f1f1] absolute top-12 right-0 h-screen w-full' : 'hidden'}>
+				<div className={isNavOpen ? 'md:hidden bg-[#1565d8] absolute top-12 right-0 h-screen w-full' : 'hidden'}>
 					<ul className="h-full flex flex-col justify-center items-center gap-y-5">
 						<li className='hover:text-gray-400 text-xl font-bold hover:underline cursor-pointer uppercase'>Home</li>
 						<li className='hover:text-gray-400 text-xl font-bold hover:underline cursor-pointer uppercase'>About</li>

@@ -3,6 +3,7 @@ import Loader  from './components/UI/Loader.jsx'
 import Navbar  from './components/Navbar.jsx'
 import Hero  from './components/Hero.jsx'
 import AboutServices  from './components/AboutServices.jsx'
+import BannerFeatures  from './components/BannerFeatures.jsx'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Navbar />
           <Hero />
           <AboutServices />
+          <BannerFeatures />
         </div>
       )
     }
