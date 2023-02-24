@@ -133,7 +133,7 @@ export default class AboutServices extends Component {
 
 					<img
 						className="h-[30rem] "
-						src="/src/assets/images/card.png"
+						src="../assets/images/card.png"
 						alt="Card png"
 					/>
 				</div>
