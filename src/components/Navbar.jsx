@@ -11,10 +11,10 @@ function Navbar() {
 				{/* desktop */}
 				<ul className='hidden w-[21rem] md:flex justify-between items-center'>
 					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all uppercase'>valiu.</li>
-					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>about us</li>
-					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>products</li>
-					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>benefits</li>
-					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>pricing</li>
+					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>Products</li>
+					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>Benefits</li>
+					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>About us</li>
+					<li className='font-medium text-sm hover:text-gray-400 cursor-pointer transition-all'>Pricing</li>
 				</ul>
 				<ul className='hidden w-[12rem] md:flex justify-between items-center'>
 					<li className='font-medium text-sm border border-white hover:border-gray-300 hover:bg-[#1259bc] text-white hover:text-gray-300 px-7 py-2 rounded-md cursor-pointer transition-all'>contact</li>
