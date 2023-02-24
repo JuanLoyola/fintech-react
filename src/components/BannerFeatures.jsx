@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ButtonShowMore from "./UI/ButtonShowMore";
-
+import servicesImg from '../assets/images/bannerFeatures.png'
 
 export default class BannerFeatures extends Component {
 	render() {
@@ -9,7 +9,7 @@ export default class BannerFeatures extends Component {
 				<div className="w-full h-20 lg:max-w-6xl flex flex-col justify-center items-center ">
 					<img
                         className="w-full lg:max-w-5xl"
-						src="/src/assets/images/bannerFeatures.png"
+						src={servicesImg}
 						alt="asd"
 					/>
 
