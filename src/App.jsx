@@ -4,6 +4,7 @@ import Navbar  from './components/Navbar.jsx'
 import Hero  from './components/Hero.jsx'
 import AboutServices  from './components/AboutServices.jsx'
 import BannerFeatures  from './components/BannerFeatures.jsx'
+import BlockChainBanner  from './components/BlockChainBanner.jsx'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Hero />
           <AboutServices />
           <BannerFeatures />
+          <BlockChainBanner />
         </div>
       )
     }
