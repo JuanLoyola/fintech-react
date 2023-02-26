@@ -5,7 +5,7 @@ import servicesImg from '../assets/images/bannerFeatures.png'
 export default class BannerFeatures extends Component {
 	render() {
 		return (
-			<div className="w-full h-full md:h-[23em] mt-12 flex justify-center items-center bg-[#c9dbf4]">
+			<div className="w-full h-full md:h-screen mt-12 md:mt-0 flex justify-center items-center bg-[#c9dbf4]">
 				<div className="w-full h-full lg:max-w-6xl flex flex-col justify-center items-center ">
 					<img
                         className="w-full hidden md:block lg:max-w-5xl"
