@@ -5,7 +5,7 @@ export default class ButtonShowMore extends Component {
 		return (
 			<div>
 				<button className="flex justify-center items-center shadow bg-none border border-[#6a91ec] text-[#6a91ec] hover:border-[#4262ac] hover:text-[#4262ac] rounded-full px-7 py-1 mt-3 md:mt-5">
-					ver más
+					read more
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"

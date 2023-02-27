@@ -6,6 +6,7 @@ import AboutServices  from './components/AboutServices.jsx'
 import BannerFeatures  from './components/BannerFeatures.jsx'
 import BlockChainBanner  from './components/BlockChainBanner.jsx'
 import Contact  from './components/Contact.jsx'
+import Footer  from './components/Footer.jsx'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <BannerFeatures />
           <BlockChainBanner />
           <Contact />
+          <Footer />
         </div>
       )
     }

@@ -11,7 +11,7 @@ export default class Contact extends Component {
 					</h1>
 					<form
 						action=""
-						className="w-full flex flex-col justify-center items-center md:items-start gap-y-5"
+						className=" w-3/4 flex flex-col justify-center items-center md:items-start gap-y-5"
 					>
 						<span className="flex flex-col md:flex-row justify-center items-center gap-y-7 md:gap-y-0">
 							<input type="text" placeholder="Name" />

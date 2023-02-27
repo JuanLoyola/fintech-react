@@ -51,7 +51,7 @@ input, textarea {
   padding: 0.25 0.5rem;
 }
 
-input:focus{
+input:focus, textarea:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
 }

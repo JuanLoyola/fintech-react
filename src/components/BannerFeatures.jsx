@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ButtonShowMore from "./UI/ButtonShowMore";
-import servicesImg from '../assets/images/bannerFeatures.png'
+import servicesImg from "../assets/images/bannerFeatures.png";
 
 export default class BannerFeatures extends Component {
 	render() {
@@ -8,7 +8,7 @@ export default class BannerFeatures extends Component {
 			<div className="w-full h-full md:h-screen mt-12 md:mt-0 md:py-5 flex justify-center items-center bg-[#c9dbf4]">
 				<div className="w-full h-full lg:max-w-6xl flex flex-col justify-center items-center ">
 					<img
-                        className="w-full hidden md:block lg:max-w-5xl"
+						className="w-full hidden md:block lg:max-w-5xl"
 						src={servicesImg}
 						alt="asd"
 					/>
@@ -16,35 +16,35 @@ export default class BannerFeatures extends Component {
 					<ul className="w-full flex flex-col md:flex-row justify-center md:justify-between items-center">
 						<li className="w-[13rem] mb-6 md:mb-0 flex flex-col justify-center items-center text-center font-semibold text-sm ml-5">
 							<p className="h-[8em] mt-5">
-								Tokenización y Trazabilidad. Trazá, gestioná y
-								diferenciá de forma simple tus activos
-								productivos.
+								Tokenization and Traceability. Trace, manage and
+								differentiate your productive assets in a simple
+								assets.
 							</p>
-                            <ButtonShowMore />
+							<ButtonShowMore />
 						</li>
 						<li className="w-[13rem] mb-6 md:mb-0 flex flex-col justify-center items-center text-center font-semibold text-sm ml-5">
 							<p className="h-[8em] mt-5">
-								Verificación Documental. Mejorá la transparencia
-								y confianza agregando blockchain a tus
-								documentos públicos.
+								Documentary Verification. Improve transparency
+								and trust by adding blockchain to your public
+								documents.
 							</p>
-                            <ButtonShowMore/>
+							<ButtonShowMore />
 						</li>
 						<li className="w-[13rem] mb-6 md:mb-0 flex flex-col justify-center items-center text-center font-semibold text-sm ml-5">
 							<p className="h-[8em] mt-5">
-								Utilizá tu información de trazabilidad como
-								Prueba de Existencia (PoE) de los bienes y
-								accedé a Seguros y Créditos de forma digital,
-								rápida y segura.
+								Use your traceability information as Proof of
+								Existence (PoE) of the goods and access to
+								Insurance and Credits digitally, fast and
+								secure.
 							</p>
-                            <ButtonShowMore/>
+							<ButtonShowMore />
 						</li>
 						<li className="w-[13rem] mb-6 md:mb-0 flex flex-col justify-center items-center text-center font-semibold text-sm ml-5">
 							<p className="h-[8em] mt-5">
-								Servicio de verificación de Libre de
-								Deforestación de establecimientos productivos.
+								Deforestation Free Verification Service
+								Deforestation of productive establishments.
 							</p>
-                            <ButtonShowMore/>
+							<ButtonShowMore />
 						</li>
 					</ul>
 				</div>
