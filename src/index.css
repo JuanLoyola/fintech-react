@@ -33,3 +33,25 @@
 .hover-button:hover {
   background-position: -100% 0;
 }
+
+
+@media screen and (min-width: 1366px) {
+  #contact {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+}
+
+input, textarea {
+  appearance: none;
+  background-color: transparent;
+  border-bottom-width: 1px;
+  border-color: #1565d8;
+  margin-right: 0.75rem;
+  padding: 0.25 0.5rem;
+}
+
+input:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}

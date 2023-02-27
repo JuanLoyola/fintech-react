@@ -5,6 +5,7 @@ import Hero  from './components/Hero.jsx'
 import AboutServices  from './components/AboutServices.jsx'
 import BannerFeatures  from './components/BannerFeatures.jsx'
 import BlockChainBanner  from './components/BlockChainBanner.jsx'
+import Contact  from './components/Contact.jsx'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <AboutServices />
           <BannerFeatures />
           <BlockChainBanner />
+          <Contact />
         </div>
       )
     }
