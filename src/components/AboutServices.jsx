@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from "./UI/Card";
-import PhoneImage from '../assets/images/card.png'
+import PhoneImage from "../assets/images/card.png";
 
 export default class AboutServices extends Component {
 	render() {
@@ -58,7 +58,11 @@ export default class AboutServices extends Component {
 						info="Each section has descriptions and examples for you."
 					/>
 				</div>
-				<h1 className="text-[#1565d8] flex mt-12 font-bold hover:underline cursor-pointer">
+				<h1
+					data-aos="flip-up"
+					data-aos-duration="1000"
+					className="text-[#1565d8] flex mt-12 font-bold hover:underline cursor-pointer"
+				>
 					Explore all features
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -80,10 +84,18 @@ export default class AboutServices extends Component {
 				<div className="w-full mt-32  max-w-4xl flex flex-col lg:flex-row-reverse lg:justify-evenly items-center">
 					<div className="flex flex-col justify-center items-end gap-y-10">
 						<span className="flex gap-x-7">
-							<p className="text-lg lg:text-7xl text-indigo-500">
+							<p
+								data-aos="flip-up"
+								data-aos-duration="2000"
+								className="text-lg lg:text-7xl text-indigo-500"
+							>
 								1123
 							</p>
-							<div className="flex flex-col justify-center items-start">
+							<div
+								data-aos="flip-up"
+								data-aos-duration="1500"
+								className="flex flex-col justify-center items-start"
+							>
 								<p className="text-sm">Transactions</p>
 								<p className="text-sm flex justify-center items-center">
 									Per Sec
@@ -106,10 +118,18 @@ export default class AboutServices extends Component {
 						</span>
 
 						<span className="flex gap-x-7">
-							<p className="text-lg lg:text-7xl text-indigo-500">
+							<p
+								data-aos="flip-up"
+								data-aos-duration="2000"
+								className="text-lg lg:text-7xl text-indigo-500"
+							>
 								78%
 							</p>
-							<div className="flex flex-col justify-center items-start">
+							<div
+								data-aos="flip-up"
+								data-aos-duration="1500"
+								className="flex flex-col justify-center items-start"
+							>
 								<p className="text-sm">Transactions</p>
 								<p className="text-sm flex justify-center items-center">
 									Per Sec
@@ -132,11 +152,8 @@ export default class AboutServices extends Component {
 						</span>
 					</div>
 
-					<img
-						className="h-[30rem] "
-						src={PhoneImage}
-						alt="Phone"
-					/>
+					<img data-aos="flip-right"
+					data-aos-duration="1300" className="h-[30rem] " src={PhoneImage} alt="Phone" />
 				</div>
 			</div>
 		);

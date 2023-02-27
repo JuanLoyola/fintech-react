@@ -10,6 +10,7 @@
     "svgr": "svgr --icon --dimensions --template ./path/to/svgr-template.js --out-dir ./src/components/UI ./src/components/UI/*.svg"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
