@@ -12,7 +12,8 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-form": "^4.0.1"
   },
   "devDependencies": {
     "@svgr/cli": "^6.5.1",
