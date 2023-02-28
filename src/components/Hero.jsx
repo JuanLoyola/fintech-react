@@ -1,6 +1,28 @@
 import React, { Component } from "react";
 
 export default class Hero extends Component {
+	constructor(props) {
+		super(props);
+		this.creditRef = React.createRef();
+	}
+
+	handleMouseMove = (e) => {
+		const mouseX = e.clientX / window.innerWidth - 0.5;
+		const mouseY = e.clientY / window.innerHeight - 0.5;
+
+		this.creditRef.current.style.transform = `rotateY(${
+			mouseX * 90
+		}deg) rotateX(${mouseY * 90}deg)`;
+	};
+
+	componentDidMount() {
+		document.addEventListener("mousemove", this.handleMouseMove);
+	}
+
+	componentWillUnmount() {
+		document.removeEventListener("mousemove", this.handleMouseMove);
+	}
+
 	render() {
 		return (
 			<div className="w-full h-[100vh] pt-32 lg:pt-0 flex flex-col justify-center items-center bg-[url('/src/assets/Background.svg')] bg-no-repeat bg-cover">
@@ -16,7 +38,7 @@ export default class Hero extends Component {
 						</h1>
 						<p
 							data-aos="flip-up"
-                            data-aos-duration="1500"
+							data-aos-duration="1500"
 							className="text-white text-base font-light md:text-lg lg:text-2xl"
 						>
 							We have a large section where we give tips on how to
@@ -25,7 +47,7 @@ export default class Hero extends Component {
 						<div className="w-full flex justify-center md:justify-start items-center gap-x-5">
 							<a
 								data-aos="flip-up"
-                                data-aos-duration="2000"
+								data-aos-duration="2000"
 								className="text-white font-semibold border border-white px-12 py-2 rounded-full hover-button hover:text-black transition-all"
 								href=""
 								target="_blank"
@@ -36,8 +58,10 @@ export default class Hero extends Component {
 						</div>
 					</span>
 
-					<span className="w-4/5 md:w-3/6 h-[20rem] lg:h-[30rem] flex justify-center items-center">
+					<span 							className="w-4/5 md:w-3/6 h-[20rem] lg:h-[30rem] flex justify-center items-center">
 						<lottie-player
+							ref={this.creditRef}
+							className="credit-card"
 							src="https://assets5.lottiefiles.com/private_files/lf30_sM28Fo.json"
 							background="transparent"
 							speed="1"

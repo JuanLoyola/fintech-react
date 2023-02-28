@@ -12,6 +12,7 @@ export default class Contact extends Component {
 						className="text-[#1565d8] font-bold text-lg md:text-3xl uppercase">
 						Contact
 					</h1>
+					{/* TODO: form validation */}
 					<form
 						data-aos="fade-up"
 						data-aos-duration="2300"
