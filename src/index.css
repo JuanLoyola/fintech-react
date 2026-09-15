@@ -321,12 +321,12 @@ button {
   }
 }
 @media (max-width: 639px) {
-  .ticker {
-    animation: ticker 24s linear infinite;
-  }
   .float-chip {
     right: -0.4rem;
   }
+}
+.ticker {
+  animation: ticker 15s linear infinite;
 }
 @keyframes ticker {
   from {

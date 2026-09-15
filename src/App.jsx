@@ -311,6 +311,126 @@ function App() {
               ${(market.fx?.rates?.ARS ?? fallback.fx.rates.ARS).toFixed(1)}
             </b>
           </span>
+           <span className="whitespace-nowrap">
+            BTC{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.btc?.usd ?? fallback.btc.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.btc?.usd_24h_change ?? 4.2).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            ETH{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.eth?.usd ?? fallback.eth.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.eth?.usd_24h_change ?? 2.8).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            USD/ARS{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.fx?.rates?.ARS ?? fallback.fx.rates.ARS).toFixed(1)}
+            </b>
+          </span>
+           <span className="whitespace-nowrap">
+            BTC{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.btc?.usd ?? fallback.btc.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.btc?.usd_24h_change ?? 4.2).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            ETH{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.eth?.usd ?? fallback.eth.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.eth?.usd_24h_change ?? 2.8).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            USD/ARS{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.fx?.rates?.ARS ?? fallback.fx.rates.ARS).toFixed(1)}
+            </b>
+          </span>
+           <span className="whitespace-nowrap">
+            BTC{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.btc?.usd ?? fallback.btc.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.btc?.usd_24h_change ?? 4.2).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            ETH{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.eth?.usd ?? fallback.eth.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.eth?.usd_24h_change ?? 2.8).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            USD/ARS{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.fx?.rates?.ARS ?? fallback.fx.rates.ARS).toFixed(1)}
+            </b>
+          </span>
+          <span className="whitespace-nowrap">
+            BTC{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.btc?.usd ?? fallback.btc.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.btc?.usd_24h_change ?? 4.2).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            ETH{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.eth?.usd ?? fallback.eth.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.eth?.usd_24h_change ?? 2.8).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            USD/ARS{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.fx?.rates?.ARS ?? fallback.fx.rates.ARS).toFixed(1)}
+            </b>
+          </span>
+          <span className="whitespace-nowrap">
+            BTC{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.btc?.usd ?? fallback.btc.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.btc?.usd_24h_change ?? 4.2).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            ETH{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.eth?.usd ?? fallback.eth.usd).toLocaleString()}
+            </b>{" "}
+            <em className="ml-1 text-emerald-300">
+              +{(market.eth?.usd_24h_change ?? 2.8).toFixed(2)}%
+            </em>
+          </span>
+          <span className="whitespace-nowrap">
+            USD/ARS{" "}
+            <b className="ml-2 text-white/75">
+              ${(market.fx?.rates?.ARS ?? fallback.fx.rates.ARS).toFixed(1)}
+            </b>
+          </span>
           <span className="whitespace-nowrap">
             SENTIMIENTO{" "}
             <b className="ml-2 text-violet-200">
